@@ -12,28 +12,27 @@
 ---
 ![ranover](images/ranover.JPG)
 
-- 62% Accuracy, 1% High risk, 66% Recall 
+- SMOTE: 62% Accuracy, 1% High risk, 66% Recall 
 ---
 ![smotesam](images/smotesam.JPG)
 
-- 52% Accuracy, 1% High risk, 47% Recall
+-Undersampling: 52% Accuracy, 1% High risk, 47% Recall
 ---
 ![undersam](images/undersam.JPG)
 
-- 62% Accuracy, 1% High risk, 53% Recall
+- Combination: 62% Accuracy, 1% High risk, 53% Recall
 ---
 ![combosam](images/combosam.JPG)
 
-- 77% Accuracy, 1% Risk, 90% Recall
+- Balanced Random Forest: 77% Accuracy, 1% Risk, 90% Recall
 ---
 ![ranfor](images/ranfor.JPG)
 
-- 92% Accuracy, 1% Risk, 94% Recall
+- EEC: 92% Accuracy, 1% Risk, 94% Recall
 ---
-![ecc](images/ecc.JPG)
+![eec](images/eec.JPG)
 
 ---
 ## Summary ##
 ---
-- 1.After finding our retiring employees by department. A sum of the counts brought us to a total of 90398 employees due to retire.
-- 2.Based off of our retiring_titles table we can see that the Senior positions will be well taken care of if we can receive a 10% mentorship rate. However with that same rate on the management and tech positions, then they will not be as well trained. I would break this down more into a table based of departmens and a table for positions specific grouped by department. Hoever I am away from my workstation and dont have access to PGadmin.
+Random Ovaersampling, SMOTE, Combination and Undersampling all had a relatively low accuracy. Then our Random Forest had a higher accuracy but too high recall. EEC gave us a good balance of both thus making it the most viable model.
