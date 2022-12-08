@@ -8,22 +8,22 @@
 ---
 ## Results ##
 ---
-- 1.Random Oversampling: 65% Accuracy, 1% High risk, 68% recall
+- Random Oversampling: 65% Accuracy, 1% High risk, 68% recall
 ![ranover](images/ranover.JPG)
 
-- 2.62% Accuracy, 1% High risk, 66% Recall 
+- 62% Accuracy, 1% High risk, 66% Recall 
 ![smotesam](images/smotesam.JPG)
 
-- 3.52% Accuracy, 1% High risk, 47% Recall
+- 52% Accuracy, 1% High risk, 47% Recall
 ![undersam](images/undersam.JPG)
 
-- 4.62% Accuracy, 1% High risk, 53% Recall
+- 62% Accuracy, 1% High risk, 53% Recall
 ![combosam](images/combosam.JPG)
 
-- 5.77% Accuracy, 1% Risk, 90% Recall
+- 77% Accuracy, 1% Risk, 90% Recall
 ![ranfor](images/ranfor.JPG)
 
-- 6.92% Accuracy, 1% Risk, 94% Recall
+- 92% Accuracy, 1% Risk, 94% Recall
 ![ecc](images/ecc.JPG)
 
 ---
