@@ -3,11 +3,24 @@
 ### 12/07/2022
 ---
 ## Overview of the Analysis ##
+
+In this project my goal was to calculate credit risk based off customers requesting loans. I then dove into the customer data csv file, created the features dataframe off of the csv. Which set the building blocks for the logistic regression for a supervised machine learning model.
 ---
-<sub>In this project we worked to calculate credit risk based off customers requesting loans. Using scikit, imbalanced-learn, SMOTE, EasyEnsembleClassifier, RandomOverSampler packages and algorithms just to name of few. We then dove into our csv file, created the features off of customers information. Which set the building blocks for our logistic regression for a supervised machine</sub>
+## Tools For Development
+
+scikit-learn 1.2.1
+imbalanced-learn 0.10.1
+SMOTE 0.10.1
+easyEnsembleClassifier 0.10.1
+randomOverSampler 0.10.1
+
+
+### Code
+Jupyter Notebook 6.5.3
+Python 3.3
 ---
 ## Results ##
----
+
 - Random Oversampling: 65% Accuracy, 1% High risk, 68% recall
 ---
 ![ranover](images/ranover.JPG)
